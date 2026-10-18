@@ -1,0 +1,26 @@
+name: scon_codegen
+description: build_runner generator that writes typed SCON encode/decode for @SconModel classes, without freezed.
+version: 0.1.0
+homepage: https://github.com/unk-404/dart_scon/tree/main/packages/scon_codegen
+repository: https://github.com/unk-404/dart_scon/tree/main/packages/scon_codegen
+issue_tracker: https://github.com/unk-404/dart_scon/issues
+topics:
+  - serialization
+  - codegen
+  - build-runner
+
+environment:
+  sdk: ^3.8.0
+
+resolution: workspace
+
+dependencies:
+  analyzer: ^14.0.0
+  build: ^5.0.0
+  scon: ^0.1.0
+  source_gen: ^4.3.1
+
+dev_dependencies:
+  build_test: ^3.5.23
+  lints: ^6.0.0
+  test: ^1.25.6

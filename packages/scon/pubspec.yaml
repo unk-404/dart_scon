@@ -1,0 +1,20 @@
+name: scon
+description: Independent Dart implementation of SCON 1.0 — a compact, human-readable text format with tabular arrays, comments and a minified form.
+version: 0.1.0
+homepage: https://github.com/unk-404/dart_scon
+repository: https://github.com/unk-404/dart_scon
+issue_tracker: https://github.com/unk-404/dart_scon/issues
+topics:
+  - serialization
+  - codec
+  - text
+  - data
+
+environment:
+  sdk: ^3.5.0
+
+resolution: workspace
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

@@ -1,0 +1,7 @@
+builders:
+  scon:
+    import: "package:scon_codegen/builder.dart"
+    builder_factories: ["sconBuilder"]
+    build_extensions: {".dart": [".scon.dart"]}
+    auto_apply: dependents
+    build_to: source

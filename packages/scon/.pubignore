@@ -1,0 +1,9 @@
+# Files that must not end up in the published archive of the `scon` package.
+
+.dart_tool/
+build/
+coverage/
+packages/
+tool/
+pubspec.lock
+pubspec_overrides.yaml

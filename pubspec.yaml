@@ -1,0 +1,11 @@
+name: dart_scon
+description: Workspace root of the SCON Dart packages (scon, scon_codegen, freezed_scon).
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+workspace:
+  - packages/scon
+  - packages/scon_codegen
+  - packages/freezed_scon

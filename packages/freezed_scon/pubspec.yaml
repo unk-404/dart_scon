@@ -1,0 +1,26 @@
+name: freezed_scon
+description: SCON text format for freezed models — generates toScon() and fromScon() on top of freezed's JSON mapping.
+version: 0.1.0
+homepage: https://github.com/unk-404/dart_scon/tree/main/packages/freezed_scon
+repository: https://github.com/unk-404/dart_scon/tree/main/packages/freezed_scon
+issue_tracker: https://github.com/unk-404/dart_scon/issues
+topics:
+  - serialization
+  - freezed
+  - codegen
+
+environment:
+  sdk: ^3.8.0
+
+resolution: workspace
+
+dependencies:
+  analyzer: ^14.0.0
+  build: ^5.0.0
+  scon: ^0.1.0
+  source_gen: ^4.3.1
+
+dev_dependencies:
+  build_test: ^3.5.23
+  lints: ^6.0.0
+  test: ^1.25.6

@@ -1,0 +1,7 @@
+builders:
+  freezed_scon:
+    import: "package:freezed_scon/builder.dart"
+    builder_factories: ["freezedSconBuilder"]
+    build_extensions: {".dart": [".freezed_scon.dart"]}
+    auto_apply: dependents
+    build_to: source
